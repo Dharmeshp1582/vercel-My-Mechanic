@@ -9,7 +9,8 @@ const cors = require("cors");
 app.use(express.json()); //to accept data as json format middleware
 app.use(cookieParser());
 app.use(cors()); // *
-require("dotenv").config();
+const dotenv = require("dotenv")
+dotenv.config();
 
 //http://localhost:3000/test
 app.get("/test", (req, res) => {
@@ -108,8 +109,8 @@ app.post("/contact", async (req, res) => {
   let transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "alpeshpatelvirpur@gmail.com",
-      pass: "xopi zvba daav aoub" // Use App Password for security
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS // Use App Password for security
     }
   });
 
