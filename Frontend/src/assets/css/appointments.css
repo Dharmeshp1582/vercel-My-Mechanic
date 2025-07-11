@@ -1,0 +1,168 @@
+/* Container and Title */
+.own-appoint-container {
+  width: 100%;
+  padding: 20px;
+  background: #87aac9;
+  min-height: 90vh;
+}
+
+.own-appoint-containers {
+  width: 100%;
+  padding: 20px;
+  background: rgb(220, 225, 245);
+  min-height: 90vh;
+}
+
+.own-appoint-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Table Styling */
+.own-appoint-table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.own-appoint-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  min-width: 900px; /* ensures horizontal scroll on small screens */
+}
+
+.own-appoint-table th,
+.own-appoint-table td {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.own-appoint-table th {
+  background: #003a79;
+  color: white;
+}
+
+.own-appoint-table tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.own-earningdata{
+  background-color: rgb(223, 222, 220);
+}
+
+/* Status Colors */
+.own-appoint-status-pending {
+  color: orange;
+}
+.own-appoint-status-booked {
+  color: green;
+}
+.own-appoint-status-inprogress {
+  color: blue;
+}
+.own-appoint-status-completed {
+  color: darkgreen;
+}
+.own-appoint-status-cancelled,
+.own-appoint-status-rejected {
+  color: red;
+}
+.own-appoint-status-rescheduled {
+  color: purple;
+}
+
+/* Buttons */
+.own-appoint-status-btn,
+.own-appoint-delete-btn,
+.own-appoint-reject-btn,
+.own-appoint-reschedule-btn {
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s ease;
+  margin-right: 6px;
+}
+
+.own-appoint-status-btn {
+  background-color: #007bff;
+  width: 100%;
+}
+.own-appoint-status-btn:hover {
+  background-color: #0056b3;
+}
+
+.own-appoint-delete-btn {
+  background-color: #dc3545;
+}
+.own-appoint-delete-btn:hover {
+  background-color: #c82333;
+}
+
+.own-appoint-reject-btn {
+  background-color: #ff9800;
+  width: 100%;
+  margin-top: 5px;
+}
+.own-appoint-reject-btn:hover {
+  background-color: #e68900;
+}
+
+.own-appoint-reschedule-btn {
+  background-color: #28a745;
+}
+.own-appoint-reschedule-btn:hover {
+  background-color: #218838;
+}
+
+/* Small Button Variation */
+.small-btn {
+  padding: 4px 8px;
+  font-size: 12px;
+  margin: 2px;
+}
+
+/* Pagination */
+.own-appoint-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.own-appoint-pagination-btn,
+.own-appoint-pagination button {
+  padding: 6px 12px;
+  background-color: #0a2647;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.own-appoint-pagination-btn:disabled,
+.own-appoint-pagination button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.own-appoint-page-count {
+  font-weight: bold;
+}
+
+/* Responsive Buttons */
+@media (max-width: 600px) {
+  .own-appoint-status-btn,
+  .own-appoint-delete-btn,
+  .own-appoint-reject-btn,
+  .own-appoint-reschedule-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}

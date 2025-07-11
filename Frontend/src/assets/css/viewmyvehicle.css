@@ -1,0 +1,229 @@
+
+
+
+  
+
+.my-veh-m-cont{
+    padding: 20px;
+    min-height: 90vh;
+    background-color: rgb(220, 225, 245);
+}
+.my-veh-container {
+    height: auto;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 50px auto;
+    
+  }
+  
+ 
+  .my-veh-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+ 
+  .my-veh-card {
+    background-color: #0c275b;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    width: 32%;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  .my-veh-details {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .my-veh-btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  .my-veh-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .my-veh-btn-view {
+    background-color: #ab0606;
+    color: #fff;
+  }
+  
+  .my-veh-btn-service {
+    background-color: #6080d8;
+    color: white;
+  }
+  
+  .my-veh-btn:hover {
+    opacity: 0.8;
+  }
+  
+
+  .my-veh-cta-section {
+    width: 100%;
+    padding: 60px 20px;
+    /* background: linear-gradient(135deg, #e0f7fa, #e3f2fd); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .my-veh-cta-container {
+   background-color: rgb(237, 237, 245);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .my-veh-cta-heading {
+    font-size: 32px;
+    color: #1a237e;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .my-veh-cta-text {
+    font-size: 18px;
+    color: #424242;
+    margin-bottom: 30px;
+  }
+  
+  .my-veh-cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .my-veh-cta-btn-1,
+  .my-veh-cta-btn-2 {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .my-veh-cta-btn-1 {
+    background-color: #1e88e5;
+    color: #ffffff;
+  }
+  
+  .my-veh-cta-btn-2 {
+    background-color: #ffffff;
+    color: #1e88e5;
+    border: 2px solid #1e88e5;
+  }
+  
+  .my-veh-cta-btn-1:hover,
+  .my-veh-cta-btn-2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .my-veh-edit-form {
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .my-veh-edit-title {
+    font-size: 1.4rem;
+    color: #3b5998;
+    margin-bottom: 15px;
+  }
+  
+  .my-veh-edit-input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .my-veh-edit-input:focus {
+    border-color: #4c51bf;
+    background-color: #edf2f7;
+  }
+  
+  .my-veh-edit-btns {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .my-veh-btn-save {
+    background-color: #48bb78;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .my-veh-btn-save:hover {
+    background-color: #38a169;
+  }
+  
+  .my-veh-btn-cancel {
+    background-color: #f56565;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .my-veh-btn-cancel:hover {
+    background-color: #e53e3e;
+  }
+  
+
+  
+  
